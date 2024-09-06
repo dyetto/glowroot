@@ -96,7 +96,7 @@
         <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-component-annotations</artifactId>
-            <version>15.0.8.Final</version>
+            <version>15.1.0.Dev02</version>
             <scope>compile</scope>
         </dependency>
         <!-- jgroups-kubernetes specifies that it requires 4.2.x -->
