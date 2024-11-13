@@ -95,7 +95,7 @@
     <protobuf.version>3.25.3</protobuf.version>
     <protoc.version>3.25.3</protoc.version>
     <!-- need to stick to netty version that is used by grpc version above -->
-    <netty.version>4.1.100.Final</netty.version>
+    <netty.version>4.1.115.Final</netty.version>
     <logback.version>1.2.13</logback.version>
     <slf4j.version>1.7.36</slf4j.version>
     <immutables.version>2.10.1</immutables.version>
@@ -496,7 +496,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -509,7 +509,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -522,7 +522,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -693,9 +693,9 @@
             <artifactId>maven-enforcer-plugin</artifactId>
             <configuration>
               <rules>
-                <requireReleaseDeps />
-                <requireReleaseVersion />
-                <requirePluginVersions />
+                <requireReleaseDeps/>
+                <requireReleaseVersion/>
+                <requirePluginVersions/>
               </rules>
             </configuration>
           </plugin>
